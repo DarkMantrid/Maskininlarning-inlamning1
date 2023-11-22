@@ -9,7 +9,9 @@
    som är svåra att uttrycka i exakta regler. När en maskininlärningsmodell ställs inför ett helt nytt scenario har den förmågan att generalisera från sin tidigare
    träning och dra slutsatser baserat på liknande mönster den har lärt sig.
 
+
 2. Kortfattad förklaring av begreppen:
+
    a) Lärhastighet: I maskininlärning avser lärhastighet hur snabbt eller långsamt en modell anpassar sig till ändringar i data. En hög lärhastighet
                     kan leda till snabbare anpassning till förändringar, men det kan också resultera i att modellen hoppar över viktiga detaljer eller blir instabil.
                     En lägre lärhastighet kan ge stabilare anpassning, men det kan ta längre tid att lära sig från nya data.
