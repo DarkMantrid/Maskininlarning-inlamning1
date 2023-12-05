@@ -67,7 +67,7 @@ void Node::FeedForward(const std::vector<double>& input) {
     for (size_t i = 0; i < weights_.size(); ++i) {
         sum += input[i] * weights_[i];
     }
-    output_ = 1.0 / (1.0 + std::exp(-sum)); // Using sigmoid activation function
+    output_ = std::max(0.0, sum); // Using ReLU activation function
 }
 
 /********************************************************************************
