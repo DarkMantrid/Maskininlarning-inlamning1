@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.20)
+project(node_cpp)
+include_directories(../inc)
+add_executable(run_node ../src/main.cpp ../src/node.cpp)
+target_compile_options(run_node PRIVATE -Wall -Werror)
+set_target_properties(run_node PROPERTIES RUNTIME_OUTPUT_DIRECTORY ../output)
